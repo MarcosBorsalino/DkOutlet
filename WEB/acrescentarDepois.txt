@@ -1,0 +1,3 @@
+<a href="#openModal" class="open">Abrir Modal</a>
+
+<a href="#close" title="Close" class="close">asasasasX</a>

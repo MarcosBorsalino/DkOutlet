@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html> 
+ <head>     
+ 	<meta charset="utf-8">
+ 	<title> Home Page </title> 
+  	<link rel="stylesheet" type="text/css" href="css/estilo-home.css">
+  	<link rel="stylesheet" type="text/css" href="css/rodape.css">
+  	<link rel="stylesheet" href="css/normalize.css">
+  	<link rel="stylesheet" href="css/gallery.css">
+  	<link rel="stylesheet" href="css/gallery.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/cabecalho.css">
+      <link rel="stylesheet" type="text/css" href="css/modal.css">
+
+
+
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript">
+
+    $(document).ready(function(){ 
+        $('#openModal').fadeIn(300);
+    });
+
+    $('.open').click(function(){ 
+        $('#openModal').fadeIn(300);
+    });
+
+    $('.close').click(function(){ 
+        $('#openModal').fadeOut(300);
+    });
+
+    </script>
+ </head>
+
+ <header id="header">
+  <h1 id="saudacao">Bem Vindo a Dk Outlet</h1>
+    <img src="logo.jpg" alt="logo oficial Dk Outlet" style="width:350px; height:200px; margin-top:-75px">
+      <nav id="navigation" class="navigation"   style="text-align: center">
+        <ul id="menu">
+         <li><a href="index.html">Home </a></li> 
+          <li><a href="quem_somos.html">Quem Somos</a></li> 
+          <li><a href="produtos.html">Nossos Produtos</a></li> 
+          <li><a href="fale_conosco.html">Fale Conosco</a></li>
+        </ul>
+      </nav>
+</header>
+
+<body> 	
+  <div class="gallery autoplay items-3">
+    <div id="item-1" class="control-operator"></div>
+    <div id="item-2" class="control-operator"></div>
+    <div id="item-3" class="control-operator"></div>
+    <div id="item-4" class="control-operator"></div>
+
+    <figure class="item">
+      	
+     	    <img src="img/image_01.jpg" alt="logo oficial Dk Outlet" style="width:1048px; height:900px">
+	
+    </figure>
+
+    <figure class="item">
+      		<img src="img/image_02.jpg" alt="image_02" style="width:1048px; height:900px">
+    </figure>
+
+    <figure class="item">
+      	    <img src="img/image_03.jpg" alt="image_03" style="width:1048px; height:900px">
+    </figure>
+
+    <figure class="item">
+    	<img src="img/image_04.jpg" alt="image_04" style="width:1048px; height:900px">
+    </figure>
+
+    <div class="controls">
+      <a href="#item-1" class="control-button">•</a>
+      <a href="#item-2" class="control-button">•</a>
+      <a href="#item-3" class="control-button">•</a>
+      <a href="#item-4" class="control-button">•</a>
+    </div>
+  </div>
+
+  
+    <div id="openModal" class="modalDialog">
+    <div> 
+
+
+          <h2>DK Outlet</h2>
+
+        <p><h1>Página em Construção !!!</h1></p>
+        <p><h2> Venha até nossa loja ou ligue  4326-2065 ! </h2></p>
+    </div>
+    </div>
+  
+
+ 
+
+</body>
+	
+</html> 

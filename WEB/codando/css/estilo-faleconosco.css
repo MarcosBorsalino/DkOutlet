@@ -1,0 +1,121 @@
+header#header {
+	margin: 0 auto; 
+	width:1300px;
+	height: 250px;
+	position: relative;
+	border: 1px dashed #ccc;
+	background-color: #fff;
+
+}
+header#header h1 {
+	color: black;
+}
+
+
+#logo{
+	display:block;
+}
+
+#logo_facebook{
+	margin-left: 40%;
+
+}
+
+#saudacao{
+ color: red;
+ text-align: center;
+
+}
+
+	{
+list-style: none;
+
+}
+
+	#menu{
+	position: relative;
+	margin: 2px;
+	margin-top: -75px;
+	display: block !important;
+}	
+
+li{
+	position: 
+}
+
+#navigation{
+    margin: 40px  auto;
+ 	font: bold 12px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 	text-transform: uppercase;
+ 	color: #444; 
+ 	float: right;
+ 	display: inline-block;
+ 	margin-top: 13%;
+ 	position: relative;
+ }
+
+ header#navigation:after{
+
+ 	clear: both;
+ 	content: ".";
+ 	display: block;
+ 	height: 0;
+ 	visibility: hidden;
+ }
+
+ header#navigation ul{
+ 	border-radius: 100px;
+ 	box-shadow: 0 200px 200px rgba(0, 0, 0, 0.07);
+ 	-webkit box-shadow: 0 200px 200px rgba(0, 0, 0, 0.07);
+ 	display:inline-block;
+ 	position: relative;
+ }
+
+ header#navigation li{
+ 	border-style: solid; 
+	border-width: 5px;
+    border-color: #FFF #000 #BABABA #FFF;
+	box-shadow: 0 1px rgba(255,255,255,1) inset;
+	-webkit-box-shadow: 0 1px rgba(255,255,255,1) inset;
+	background: #F7F7F7; /* Old browsers */
+	background: -moz-linear-gradient(top, #F7F7F7 0%, #EDEDED 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F7F7F7), color-stop(100%,#EDEDED)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #F7F7F7 0%,#EDEDED 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #F7F7F7 0%,#EDEDED 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #F7F7F7 0%,#EDEDED 100%); /* IE10+ */
+	background: linear-gradient(top, #F7F7F7 0%,#EDEDED 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F7F7F7', endColorstr='#EDEDED',GradientType=0 ); /* IE6-9 */	
+ 	display:inline-block;
+ 	position: absolute;
+ 	margin-top: -106px;
+
+ }
+
+
+ header#navigation a {
+	display: block;
+	padding: 20px 15px;
+	color: #444;
+	text-decoration: none;
+	text-shadow: 0 1px #FFF;
+}
+
+figure{
+	background-color: #fff;
+	
+	text-align: right;
+	padding: 15px;
+	margin: 30px;
+
+}
+
+figcaption{
+	font-size: italic;
+	margin-top: 10px;
+}
+
+
+footer{
+
+	background-color: red;
+}

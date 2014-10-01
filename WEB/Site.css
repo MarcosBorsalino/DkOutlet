@@ -1,0 +1,37 @@
+@charset "utf-8";
+#topo {
+	height: 375px;
+	width: 800px;
+	color: #000;
+	background-color: #FFF;
+	background-image: url(imagens/topo.jpg);
+	background-repeat: no-repeat;
+}
+body {
+background:	#FFF
+	
+}
+#menu {
+	height: 40px;
+	width: 800px;
+	background-color: #000;
+	margin: auto;
+}
+#conteudo {
+	height: 500px;
+	width: 800px;
+}
+#rodape {
+	height: 60px;
+	width: 800px;
+	background-color: #000;
+}
+#pagina {
+	margin: auto;
+	width: 800px;
+	background-color: #FFF;
+}
+#pagina {
+	margin: auto;
+	width: 800px;
+}

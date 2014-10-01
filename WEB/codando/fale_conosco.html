@@ -1,0 +1,133 @@
+<DOCTYPE html> 
+	<html> 
+	<head>
+	
+	<meta charset="utf-8">
+	<title>Fale Conosco</title> 
+	<link rel="stylesheet" type="text/css" href="css/estilo-faleconosco.css">
+  	<link rel="stylesheet" type="text/css" href="css/rodape.css">
+  	<link rel="stylesheet" href="css/normalize.css">
+  	<link rel="stylesheet" href="css/gallery.css">
+  	<link rel="stylesheet" href="css/gallery.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/cabecalho.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
+		
+<!-- JAVASCRIPT -->
+      <script src="js/prefixfree.min.js"></script>
+      <script src="js/jquery-1.6.2.min.js"></script>
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"> </script>
+
+      <script src="js/formulario.js"></script>
+
+
+
+<!-- JAVASCRIPT -->
+
+	</head> 
+	<header id="header">
+  <h1 id="saudacao">Bem Vindo a Dk Outlet</h1>
+    <img src="logo.jpg" alt="logo oficial Dk Outlet" style="width:350px; height:200px; margin-top:-75px">
+      <nav id="navigation" class="navigation"   style="text-align: center">
+        <ul id="menu">
+         <li><a href="index.html">Home </a></li> 
+          <li><a href="quem_somos.html">Quem Somos</a></li> 
+          <li><a href="produtos.html">Nossos Produtos</a></li> 
+          <li><a href="fale_conosco.html">Fale Conosco</a></li>
+        </ul>
+      </nav>
+</header>
+
+
+
+	<body> 	
+
+  <div class="gallery autoplay items-3">
+  
+    <div id="item-1" class="control-operator"></div>
+    <div id="item-2" class="control-operator"></div>
+    <div id="item-3" class="control-operator"></div>
+    <div id="item-4" class="control-operator"></div>
+
+    <figure class="item">
+      	
+     	    <img src="img/image_01.jpg" alt="logo oficial Dk Outlet" style="width:1048px; height:900px">
+	
+    </figure>
+
+    <figure class="item">
+      		<img src="img/image_02.jpg" alt="image_02" style="width:1048px; height:900px">
+    </figure>
+
+    <figure class="item">
+      	    <img src="img/image_03.jpg" alt="image_03" style="width:1048px; height:900px">
+    </figure>
+
+    <figure class="item">
+    	<img src="img/image_04.jpg" alt="image_04" style="width:1048px; height:900px">
+    </figure>
+
+    <div class="controls">
+      <a href="#item-1" class="control-button">•</a>
+      <a href="#item-2" class="control-button">•</a>
+      <a href="#item-3" class="control-button">•</a>
+      <a href="#item-4" class="control-button">•</a>
+    </div>
+  
+  </div>
+
+  
+<form method="post" id="fContato" action="valida-formulario.php">
+  
+  <fieldset id="usuario" style="width: 420px;"<legend>Identificação do Usuário</legend>
+    
+    <p><label for="cNome">Nome:</label>
+      <input type="text"  id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
+    <p><label for="cMail">Email: </label>
+      <input type="email" id="cMail" placeholder="Digite seu E-Mail"/></p>
+    <p><label>Data Nascimento: </label> 
+      <input type="date" name="tNasc" id="cNasc"/></p>
+  
+
+        <input type="radio" name="tSexo"id="cMasc" checked/> <label for="cMasc">Masculino</label></input><br/>
+        <input type="radio" name="tSexo" id="cFem"/><label  for="cFem">Feminino</label></input>
+
+
+    <p>Tel:<input type="text" name="tTel" id="cTel" size="13" maxlength="13" placeholder="Fone para contato"/></p>
+    <p>Cel:<input type="text" name="tCel" id="cCel" size="14" maxlength="14" placeholder="Celular para contato"> </p>
+
+
+    <p><label for="cMsg">Mensagem:</label>
+      <textarea name="Cmsg" id="tMsg" cols="45" rows="5" placeholder="Deixe Aqui sua Mensagem"></textarea></p>
+    <p><label for="cUrg">Grau de Urgência:</label>
+      Mín<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2"/>Máx</p>
+ 
+  </fieldset>
+  
+
+
+ 
+
+  <input type="submit" id="enviar" placeholder="Enviar"/>
+
+  <input type="hidden" id="metodo" value="formulario-ajax"/>
+  
+</form>
+
+
+
+
+  <fieldset>
+Localização - Google Maps 
+  </fieldset>
+
+
+
+</body>
+	<footer>
+ &copy; Copyright Dk Outlet  <a href="https://www.facebook.com/dk.outlet.7?fref=ts" target="blank"><img src="icon/facebook.png" alt="pagina_facebook" ></a>
+   
+</footer>
+
+	</html> 

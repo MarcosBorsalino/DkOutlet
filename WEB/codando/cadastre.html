@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html> 
+ <head> 
+  <meta charset="UTF-8">
+  <title>Cadastre-se
+  </title>
+ </head>
+ <body>
+<form name="CadastroUsers">
+ <fieldset id="enderecoUsuario"><legend>Endereço Usuário</legend>
+
+    <p><label for="cLogradouro">Logradouro:</label>
+        <input type="text" name="tLogradouro" id="cLogradouro" size="20 "maxlength="70" placeholder="Digite o logradouro"/></p>
+    <p><label for="cNumero">Numero:</label>
+        <input type="number" name="tNumero" id="cNumero" min="1" max="99999"></p>
+    <p><label for="cEst">Estado:</label>
+ 
+
+
+        <select name="tEst" id="cEst">
+ 
+          <OPTGROUP label="Região-Centro-Oeste">
+              <option values="RJ">Rio De Janeiro</option>
+              <option value="SP"selected>São Paulo</option>
+          </OPTGROUP>
+
+          <OPTGROUP label="Região-Sudeste">
+              <option value="MG">Rio Grande do Sul</option>
+              <option valeu="PR">Paraná</option>
+          </OPTGROUP>
+
+        </select></p>
+
+
+
+    <p><label for="cCid">Cidade:</label> 
+        <input type="text" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Digite o nome da cidade" list="Cidades"/></p>
+          
+          <datalist id="Cidades">
+
+            <option value="Rio de Janeiro"></option>
+            <option value="Nova Iguaçu"></option>
+            <option value="Niterói"></option>
+            <option value="Belford Roxo"></option>
+
+          </datalist>
+  
+  </fieldset>
+</form>
+</body> 
+<html>
